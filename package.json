@@ -1,0 +1,23 @@
+{
+  "name": "atividade_prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cls && nodemon server.js"
+  },
+  "keywords": [
+    "banco de dados",
+    "hamburgueria",
+    "backend"
+  ],
+  "author": "Arthur Morais",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
