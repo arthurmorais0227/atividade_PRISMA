@@ -1,11 +1,9 @@
 import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
-
 async function main() {
   console.log('🌱 Inserindo comidas no banco...')
 
-  // limpa a tabela antes de inserir (evita duplicação)
   await prisma.comidas.deleteMany()
   await prisma.$executeRaw`ALTER TABLE comidas AUTO_INCREMENT = 1`
 
