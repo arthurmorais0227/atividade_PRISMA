@@ -24,7 +24,7 @@ async function main() {
       { nome: 'Nachos com Queijo', tipo: 'Mexicana', preco: 22.00, descricao: 'Chips de milho com molho cheddar derretido.' },
       { nome: 'Hambúrguer Artesanal', tipo: 'Americana', preco: 30.00, descricao: 'Pão brioche, carne bovina e queijo cheddar.' },
       { nome: 'Hot Dog Clássico', tipo: 'Americana', preco: 18.00, descricao: 'Salsicha com ketchup, mostarda e cebola crocante.' },
-      { nome: 'Panqueca de Blueberry', tipo: 'Americana', preco: 20.00, descricao: 'Panquecas doces servidas com mel e blueberries.' },
+      { nome: 'Panqueca de Blueberry', tipo: 'Amer  icana', preco: 20.00, descricao: 'Panquecas doces servidas com mel e blueberries.' },
       { nome: 'Curry de Frango', tipo: 'Indiana', preco: 40.00, descricao: 'Frango cozido em molho de curry e leite de coco.' },
       { nome: 'Naan com Alho', tipo: 'Indiana', preco: 10.00, descricao: 'Pão indiano assado com manteiga e alho.' },
       { nome: 'Pad Thai', tipo: 'Tailandesa', preco: 38.00, descricao: 'Macarrão de arroz salteado com camarão, ovo e amendoim.' },
